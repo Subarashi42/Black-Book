@@ -1,5 +1,5 @@
-from character_creation import player
-from village_sarth import journey_to_village_of_sarth
+from Game.character_creation import player
+from Game.village_sarth import journey_to_village_of_sarth
 
 
 def journey_to_dragons_keep():

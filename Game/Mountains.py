@@ -1,9 +1,9 @@
-from Wallechia import proceed_to_wallechia
-from character_creation import player
-from dragon_keep import journey_to_dragons_keep
-from temple_of_forgotten import journey_to_temple_of_forgotten
+from Game.Wallechia import proceed_to_wallechia
+from Game.character_creation import player
+from Game.dragon_keep import journey_to_dragons_keep
+from Game.temple_of_forgotten import journey_to_temple_of_forgotten
 from travel_menu import travel_menu, player_destination
-from village_sarth import journey_to_village_of_sarth
+from Game.village_sarth import journey_to_village_of_sarth
 
 
 def leave_village_no_info():

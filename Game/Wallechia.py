@@ -1,5 +1,5 @@
-from character_creation import player
-from temple_of_forgotten import journey_to_temple_of_forgotten
+from Game.character_creation import player
+from Game.temple_of_forgotten import journey_to_temple_of_forgotten
 
 
 def proceed_to_wallechia():

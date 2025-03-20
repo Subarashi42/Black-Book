@@ -1,5 +1,5 @@
-from Mountains import battlefield_encounter, continue_journey2
-from character_creation import player
+from Game.Mountains import battlefield_encounter, continue_journey2
+from Game.character_creation import player
 
 # Travel menu 1
 player_destination = ""

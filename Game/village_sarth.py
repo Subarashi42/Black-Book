@@ -1,5 +1,5 @@
-from character_creation import player
-from to_the_castle import return_to_castle
+from Game.character_creation import player
+from Game.to_the_castle import return_to_castle
 
 
 def journey_to_village_of_sarth():

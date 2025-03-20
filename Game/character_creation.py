@@ -164,7 +164,7 @@ def begin_story():
     print(f"Starting stats: Strength = {player['strength']}, Magic = {player['magic']}, Agility = {player['agility']}.")
     input("\n[Press Enter to continue]")
     # Start the story
-    from story_start import begin_story2
+    from Game.story_start import begin_story2
     begin_story2()
 
 

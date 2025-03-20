@@ -1,5 +1,5 @@
-from Mountains import leave_village_no_info
-from character_creation import player
+from Game.Mountains import leave_village_no_info
+from Game.character_creation import player
 
 
 def begin_story2():
