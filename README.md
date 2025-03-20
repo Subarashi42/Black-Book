@@ -4,7 +4,7 @@ This is a Multiple Choice RPG game I have been working on since 9/18/24
 
 - Most of it is playable in Unity this repo is just to store the base code for it.
 Meaning this version can only run a text version of the game-> more like a visual novel 
-then a Third-person FPS (this version is also still being updated and currently doesn't work)
+then a Third-person/First-person rpg(this version is also still being updated and currently doesn't work)
 
 * Check out the Unity Repo to play the full version! (Third-person multiple choice rpg)
 
