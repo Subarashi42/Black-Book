@@ -6,4 +6,6 @@ This is a Multiple Choice RPG game I have been working on since 9/18/24
 Meaning this version can only run a text version of the game-> more like a visual novel 
 then a Third-person FPS
 
+# Check out the Unity Repo to play the full version! (Third-person multiple choice rpg)
+
 ## Server Status: Offline
