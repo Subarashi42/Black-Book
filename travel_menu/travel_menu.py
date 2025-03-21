@@ -1,4 +1,3 @@
-from Game.Mountains import battlefield_encounter, continue_journey2
 from Game.character_creation import player
 
 # Travel menu 1
@@ -51,7 +50,26 @@ def travel_menu():
         travel_menu()
 
     input("\nPress Enter to continue.")
+    from Game.mountains_of_echoes import battlefield_encounter
     battlefield_encounter()  # Proceed to the battlefield encounter based on the player's choice
+
+
+def continue_journey():
+    if player_destination == "dragons_keep":
+        from Game.dragons_keep import journey_to_dragons_keep
+        journey_to_dragons_keep()
+    elif player_destination == "mountain_of_echoes":
+        from Game.mountains_of_echoes import journey_to_mountain_of_echoes
+        journey_to_mountain_of_echoes()
+    elif player_destination == "village_of_sarth":
+        from Game.village_of_sarth import journey_to_village_of_sarth
+        journey_to_village_of_sarth()
+    elif player_destination == "temple_of_forgotten":
+        from Game.temple_of_forgotten import journey_to_temple_of_forgotten
+        journey_to_temple_of_forgotten()
+    elif player_destination == "wallechia":
+        from Game.wallechia import proceed_to_wallechia
+        proceed_to_wallechia()
 
 
 def travel_menu2():
@@ -95,4 +113,5 @@ def travel_menu2():
         travel_menu2()
 
     input("\nPress Enter to continue.")
+    from Game.mountains_of_echoes import continue_journey2
     continue_journey2()

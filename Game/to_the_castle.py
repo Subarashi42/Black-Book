@@ -21,4 +21,5 @@ def return_to_castle():
         "As you approach, you feel the weight of the task ahead, the fate of the kingdom resting on your shoulders.\n")
 
     input("\nPress Enter to continue to the Castle of Wallechia.")
+    from Game.Wallechia import proceed_to_wallechia
     proceed_to_wallechia()

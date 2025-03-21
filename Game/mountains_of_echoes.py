@@ -2,7 +2,7 @@ from Game.Wallechia import proceed_to_wallechia
 from Game.character_creation import player
 from Game.dragon_keep import journey_to_dragons_keep
 from Game.temple_of_forgotten import journey_to_temple_of_forgotten
-from travel_menu import travel_menu, player_destination
+from travel_menu.travel_menu import travel_menu, player_destination, continue_journey
 from Game.village_sarth import journey_to_village_of_sarth
 
 
@@ -17,31 +17,6 @@ def leave_village_no_info():
 
     # Present the travel menu for exploration
     travel_menu()
-
-
-# Global variable to track the player's chosen destination
-
-
-
-# Travel menu where the player picks a destination
-# Leads to the lieutenant encounter
-
-
-# Continue journey after the lieutenant encounter
-def continue_journey():
-    if player_destination == "dragons_keep":
-        journey_to_dragons_keep()
-    elif player_destination == "mountain_of_echoes":
-        journey_to_mountain_of_echoes()
-    elif player_destination == "village_of_sarth":
-        journey_to_village_of_sarth()
-    elif player_destination == "temple_of_forgotten":
-        journey_to_temple_of_forgotten()
-    elif player_destination == "wallechia":
-        proceed_to_wallechia()
-
-
-# Specific journey functions for each destination
 
 
 def journey_to_mountain_of_echoes():

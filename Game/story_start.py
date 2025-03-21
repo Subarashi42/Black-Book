@@ -1,4 +1,4 @@
-from Game.Mountains import leave_village_no_info
+from Game.mountains_of_echoes import leave_village_no_info, reward_xp
 from Game.character_creation import player
 
 

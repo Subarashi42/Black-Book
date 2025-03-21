@@ -100,6 +100,8 @@ def fight_on_front_lines():
     if player['strength'] > 8:
         print(
             "\nYour strength allows you to cut through Adrieth’s soldiers with ease, but the battle is far from over.")
+        from Game.mountains_of_echoes import reward_xp
+        reward_xp(100)
     else:
         print(
             "\nThe fight is difficult, and you're struggling to keep up with the elite warriors. You take damage but manage to hold your own.")
@@ -194,6 +196,7 @@ def sneak_attack_adrieth():
 
     if player['agility'] >= 8:
         print("\nYour agility allows you to move undetected through the battlefield, getting closer to Adrieth.")
+        reward_xp(100)
     else:
         print(
             "\nYou struggle to stay hidden, and a few of Adrieth's soldiers notice you. You take some damage but press on.")
