@@ -2,7 +2,7 @@ from Game.Wallechia import proceed_to_wallechia
 from Game.character_creation import player
 from Game.dragon_keep import journey_to_dragons_keep
 from Game.temple_of_forgotten import journey_to_temple_of_forgotten
-from travel_menu.travel_menu import travel_menu, player_destination, continue_journey
+from travel_menu.travel_menu import travel_menu, player_destination, continue_journey, travel_menu2
 from Game.village_sarth import journey_to_village_of_sarth
 
 
@@ -860,8 +860,10 @@ def defeat_beast():
     print("You feel a surge of power as you absorb the beast's remaining essence. You have gained valuable knowledge.")
     print("You now possess the information you need to proceed to Wallechia.")
     input("\n[Press Enter to continue]")
-    print("Thank you for playing version0.03 of this game!")
-    input("\n[Press Enter to continue the game for one last option before the game stops running!]")
+    ## print("Thank you for playing version0.03 of this game!")
+    ## input("\n[Press Enter to continue the game for one last option before the game stops running!]")
+    input("\n[Press Enter to open the travel menu]")
+    from travel_menu.travel_menu import travel_menu2
     travel_menu2()
 
 
